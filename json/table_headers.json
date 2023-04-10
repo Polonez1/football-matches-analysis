@@ -1,0 +1,13 @@
+{
+    "tables":{
+        "general_table":{
+            "columns":[
+            "id", "homeID", "awayID", "season", "status", "roundID", "game_week",
+            "homeGoals", "awayGoals","homeGoalCount", "awayGoalCount", "totalGoalCount"
+            ]
+
+        }
+
+    }
+
+}
