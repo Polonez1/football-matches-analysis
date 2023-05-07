@@ -11,4 +11,5 @@ log = logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 # path
 
-CURRENT_PATH = os.getcwd().partition("config")[0]
+CURRENT_PATH = os.path.abspath(__file__)
+PROJECT_PATH = os.path.dirname(os.path.dirname(CURRENT_PATH))
