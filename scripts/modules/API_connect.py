@@ -7,6 +7,7 @@ sys.path.append(".\\config\\")
 import secret
 import config
 
+
 config.log
 
 

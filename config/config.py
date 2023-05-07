@@ -1,5 +1,6 @@
 import logging
 import sys
+import os
 
 # URL
 MATCHES_URL = "https://api.football-data-api.com/league-matches?key={api_token}&season_id={season_id}"
@@ -7,3 +8,7 @@ TEAMS_URL = "https://api.football-data-api.com/league-teams?key={api_token}&seas
 
 # logging
 log = logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+
+# path
+
+CURRENT_PATH = os.getcwd().partition("config")[0]
